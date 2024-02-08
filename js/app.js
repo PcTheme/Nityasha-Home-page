@@ -7,28 +7,38 @@ window.addEventListener('load', function () {
 navAnimation();
 
 
+// Get reference to the button element
+var button = document.querySelector(".mode-toggle");
 
-function toggleMode() {
-    // Get reference to the body element
-    var body = document.body;
+// Toggle button text and style
+if (document.body.classList.contains("dark-mode")) {
+    document.body.classList.remove("dark-mode");
+    button.innerHTML = '<img alt="Trionn" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" class="w-full h-full tr__cursor__hoverable tr__magnetic" src="/_next/static/media/dark-mode-icon.db0ad99a.svg" style="color: transparent; translate: none; rotate: none; scale: none; transform: translate(0px, 0px);">';
+    button.classList.remove("dark-mode");
+    button.classList.add("light-mode");
+    gsap.to(".mousefollower", {
+        scale: 1, // Change scale back to original
+        color: "#000000",
+        backgroundColor: "#ffffff", // Change background color
+        filter: "none", // Remove blur effect
+        boxShadow: "none", // Remove box shadow
+        ease: "none"
+    });
+} else {
+    document.body.classList.add("dark-mode");
+    button.innerHTML = '<img alt="Trionn" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" class="w-full h-full tr__cursor__hoverable tr__magnetic" src="/_next/static/media/light-mode-icon.035572eb.svg" style="color: transparent; translate: none; rotate: none; scale: none; transform: translate(0px, 0px);"></img>';
+    button.classList.remove("light-mode");
+    button.classList.add("dark-mode");
+    gsap.to(".mousefollower", {
+        scale: 17,
+        color: "#000",
+        backgroundColor: "#c5fcfc",
+        filter: "blur(2px)", // Add blur effect
+        boxShadow: "0 0 5px 5px black",
+        ease: "none"
+    });
+}
 
-    // Toggle between dark and light mode classes
-    body.classList.toggle("dark-mode");
-    body.classList.toggle("light-mode");
-
-    // Get reference to the button element
-    var button = document.querySelector(".mode-toggle");
-
-    // Toggle button text and style
-    if (body.classList.contains("dark-mode")) {
-        button.innerHTML = '<img alt="Trionn" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" class="w-full h-full tr__cursor__hoverable tr__magnetic" src="/_next/static/media/light-mode-icon.035572eb.svg" style="color: transparent; translate: none; rotate: none; scale: none; transform: translate(0px, 0px);"></img>';
-        button.classList.remove("light-mode");
-        button.classList.add("dark-mode");
-    } else {
-        button.innerHTML = '<img alt="Trionn" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" class="w-full h-full tr__cursor__hoverable tr__magnetic" src="/_next/static/media/dark-mode-icon.db0ad99a.svg" style="color: transparent; translate: none; rotate: none; scale: none; transform: translate(0px, 0px);">';
-        button.classList.remove("dark-mode");
-        button.classList.add("light-mode");
-    }
 }
 
 
@@ -334,3 +344,4 @@ function lenisscroll() {
     requestAnimationFrame(raf)
 }
 lenisscroll()
+

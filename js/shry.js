@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
             gsap.to(".mousefollower", {
                 boxShadow: "0 0 5px 5px black",
                 filter: blur("3px"),
+                
                 scale: 1, 
                 ease: "none"
             });
@@ -58,9 +59,10 @@ document.addEventListener("DOMContentLoaded", function() {
         // Apply GSAP animation to modify the mousefollower
         gsap.to(".mousefollower", {
             scale: 17,
-            color: "#c5fcfc",
-            filter: "blur(2px)", // Add blur effect
-            boxShadow: "0 0 5px 5px black",
+            // color: "#c5fcfc",
+            // backgroundColor: "#c5fcfc",
+            // filter: "blur(2px)", // Add blur effect
+            // boxShadow: "0 0 5px 5px black",
             ease: "none"
         });
     });

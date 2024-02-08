@@ -37,10 +37,7 @@ body.light-mode {
     background: #C5FCFC;
     color: #000000;
 }
-body.dark-mode .mousefollower{
-    background: "#C5FCFC",
 
-}
 body.light-mode h1, body.light-mode h2, body.light-mode h3, body.light-mode h4, body.light-mode h5, body.light-mode h6, body.light-mode span, body.light-mode p, body.light-mode div, body.light-mode button {
     color: #000000;
 }
@@ -645,8 +642,7 @@ li a {
     text-align: center;
 }
 .circle {font-family: Lexend; color: #fff;}
-.mousefollower{filter: blur(3px); box-shadow: 0 0 5px 5px black;color: #fff;}
-
-
-/* background: "#C5FCFC", */
+.mousefollower{filter: blur(1  px); color: #fff;
+    mix-blend-mode: difference;
+}
 
