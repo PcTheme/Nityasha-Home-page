@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&family=Public+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;800&display=swap');
 
 * {
     margin: 0;
@@ -11,21 +12,38 @@
 
 *::selection {
     background: transparent;
-    color: #6c6c6d;
+    color: #6b6b6b;
 }
 
 @font-face {
     font-family: "Dirtyline 36Daysoftype 2022";
-    src: url(/fonts/Dirtyline36Daysoftype2022-Reg.ttf) format("truetype");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap
+    src: url(/fonts/Dirtyline36Daysoftype2022-Reg.ttf);
 }
 
-html,
 body {
-    height: 100%;
-    width: 100%;
+    overflow: hidden;
+    
+}
+body.dark-mode {
+    background-color: #222;
+    color: #fff;
+}
+
+body.dark-mode h1, body.dark-mode h2, body.dark-mode h3, body.dark-mode h4, body.dark-mode h5, body.dark-mode h6, body.dark-mode span, body.dark-mode p, body.dark-mode div, body.dark-mode button {
+    color: #fff;
+}
+
+body.light-mode {
+    background: #C5FCFC;
+    color: #000000;
+}
+
+body.light-mode h1, body.light-mode h2, body.light-mode h3, body.light-mode h4, body.light-mode h5, body.light-mode h6, body.light-mode span, body.light-mode p, body.light-mode div, body.light-mode button {
+    color: #000000;
+}
+
+body.dark-mode svg, body.dark-mode path {
+    fill: #C5FCFC;
 }
 
 a {
@@ -38,15 +56,7 @@ button {
     cursor: pointer;
 }
 
-body.dark-mode {
-    background-color: #222;
-    color: #fff;
-}
 
-body.light-mode {
-    background-color: #fff;
-    color: #222;
-}
 html ::-webkit-scrollbar,
 body ::-webkit-scrollbar {
 width: 5px;
@@ -66,9 +76,18 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 5%;
-    backdrop-filter: blur(10px);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    /* backdrop-filter: blur(10px); */
 }
+header .asdhasiudoasdasdasdasda{
+    font-family: Lexend;
+    text-transform: capitalize;
+}
+
+
 
 /* #elementToFollowCursor {
     width: 20px;
@@ -132,13 +151,11 @@ body.dark-mode {
     color: #fff;
 }
 
-/* Light mode styles */
 body.light-mode {
     background-color: #fff;
     color: #222;
 }
 
-/* Button styles */
 .animatedloader {
     width: 100%;
     height: 100%;
@@ -152,7 +169,7 @@ body.light-mode {
 }
 
 .animatedloader h1 {
-    color: #222;
+    /* color: #222; */
     font-family: Lexend;
     transition: 300ms;
 }
@@ -178,7 +195,7 @@ header .tr__nav__humburger {
     align-items: center;
     justify-content: flex-end;
     border-radius: 9999px;
-    padding-right: 10px;
+    /* padding-right: 10px; */
 }
 
 .tr__nav__humburger {
@@ -242,18 +259,18 @@ li {
 }
 
 li a {
-    color: #dce0e0;
+    /* color: #dce0e0; */
     transition: 300ms;
 }
 
 .hovered {
     transition: 300ms;
-    color: #222;
+    /* color: #222; */
     /* Change color of <a> tags when parent <ul> is hovered */
 }
 
-.magnet-target2 {
-    width: 438px;
+.buttons-containerasdasdasd{
+    width: 350px;
     display: flex;
     height: 84px;
 }
@@ -262,10 +279,11 @@ li a {
     display: flex;
     align-items: center;
     gap: 10px;
-    padding: 79px;
+    justify-content: center;
+    /* padding: 79px; */
     flex-direction: column;
     width: 100%;
-    height: 120vh;
+    height: 74vw;
     font-family: "Dirtyline 36Daysoftype 2022";
     text-transform: lowercase;
     font-size: 2vw;
@@ -276,7 +294,7 @@ li a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #3F4144;
+    /* color: #3F4144; */
     justify-content: center;
 }
 
@@ -290,7 +308,7 @@ li a {
     font-family: 'Plus Jakarta Sans', sans-serif;
     align-items: center;
     letter-spacing: -1px;
-    color: #6c6c6d;
+    /* color: #6c6c6d; */
     justify-content: center;
 }
 
@@ -305,26 +323,27 @@ li a {
     width: 100%;
     display: flex;
     align-items: center;
-    padding-left: 7rem;
-    padding-right: 7rem;
+    padding: 10vh;
     justify-content: space-between;
 }
 
 .asd8asdyasd {
     display: flex;
-    height: 52px;
-    width: 172px;
-    color: #222;
+    font-family: Lexend;
+    padding: 1rem 2rem;
+    /* color: #222; */
     align-items: center;
     justify-content: center;
     font-size: 15px;
     letter-spacing: 0px;
+    text-transform: math-auto;
     border-radius: 9999px;
     border-width: 2px;
-    border: 2px solid #3f4144;
+    border: 2px solid #3F4144;
     transition-property: all;
     transition-timing-function: cubic-bezier(.4, 0, .2, 1);
     transition-duration: .15s;
+    transition: 200ms;
     z-index: 1000;
     position: relative;
 }
@@ -332,8 +351,9 @@ li a {
 .asd8asdyasd:hover {
     color: #fff;
     overflow: hidden;
-    height: 10vw;
-    width: 10vw;
+    transition: 200ms;
+    padding: 1rem 2rem;
+    transition: 200ms;
     border: 1px solid transparent;
     background: #ffffff00;
     /* backdrop-filter: blur(10px); */
@@ -347,6 +367,7 @@ li a {
 /* Target the sibling element when the first element is hovered */
 .asd8asdyasd:hover+.asdha9sud7adgdgh6gfh4b {
     background: #000000;
+    transition: 200ms;
     height: 7vw;
     filter: blur(30px);
     /* border: 1px solid transparent; */
@@ -361,6 +382,7 @@ li a {
     /* filter: blur(10px); */
     width: 0vw;
     overflow: hidden;
+    transition: 200ms;
     margin-top: -144px;
     position: relative;
     z-index: -0;
@@ -372,6 +394,7 @@ li a {
     /* filter: blur(10px); */
     background: #2b0c0c;
     overflow: hidden;
+    transition: 200ms;
     height: 1vw;
     width: 1vw;
 }
