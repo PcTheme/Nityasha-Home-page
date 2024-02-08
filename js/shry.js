@@ -58,6 +58,7 @@ document.addEventListener("DOMContentLoaded", function() {
         // Apply GSAP animation to modify the mousefollower
         gsap.to(".mousefollower", {
             scale: 17,
+            color: "#c5fcfc",
             filter: "blur(2px)", // Add blur effect
             boxShadow: "0 0 5px 5px black",
             ease: "none"
@@ -145,6 +146,7 @@ Shery.imageMasker(".asdasidasiund" /* Element to target.*/, {
                 boxShadow: "0 0 0 0 transparent",
             scale: 1,
             ease: "none"
+                
             });
         });
 });
