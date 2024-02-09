@@ -93,18 +93,31 @@ gsap.from(".sfohfasiudhasdasd", {
     }
 });
 
-gsap.from(".asdasidasiund", {
+gsap.from(".asdoasiduasiudsad", {
     // scale: 0.2,
     x: "-100%",
     backgroundSize: "0% 100%",
     backgroundPositionX: "-1.28%", // animate background position x
     scrollTrigger: {
         backgroundColor: "#000",
-        trigger: ".asdasidasiund",
+        trigger: ".asdoasiduasiudsad",
         start: "left right",
         end: "center center",
-        scrub: 2,
-        rotate: "360    deg",
+        scrub: 2
     }
 });
 
+gsap.from(".asdasidasiund", {
+    // scale: 0.2,
+        y: "-100%",
+        backgroundSize: "0% 100%",
+        backgroundPositionX: "-1.28%", // animate background position x
+        scrollTrigger: {
+            backgroundColor: "#000",
+            trigger: ".asdasidasiund",
+            start: "left right",
+            end: "center center",
+            scrub: 2,
+            rotate: "10deg",
+        }
+    });

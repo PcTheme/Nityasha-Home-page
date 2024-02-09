@@ -24,10 +24,26 @@ function toggleMode() {
         button.innerHTML = '<img alt="Trionn" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" class="w-full h-full tr__cursor__hoverable tr__magnetic" src="/_next/static/media/light-mode-icon.035572eb.svg" style="color: transparent; translate: none; rotate: none; scale: none; transform: translate(0px, 0px);"></img>';
         button.classList.remove("light-mode");
         button.classList.add("dark-mode");
+            gsap.to(".mousefollower", {
+                boxShadow: "0 0 5px 5px black",
+                mixblendmode: "none",
+                ease: "none",
+                filter: blur("3px"),
+                // background: "#fff",
+                scale: 1,
+            });
+    
     } else {
         button.innerHTML = '<img alt="Trionn" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" class="w-full h-full tr__cursor__hoverable tr__magnetic" src="/_next/static/media/dark-mode-icon.db0ad99a.svg" style="color: transparent; translate: none; rotate: none; scale: none; transform: translate(0px, 0px);">';
         button.classList.remove("dark-mode");
         button.classList.add("light-mode");
+        gsap.to(".mousefollower", {
+            boxShadow: "0 0 5px 5px black",
+            ease: "none",
+            filter: blur("3px"),
+            // background: "#000",
+            scale: 1,
+        });
     }
 }
 

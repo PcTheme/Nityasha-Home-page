@@ -1,211 +1,258 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Nityasha | Home</title>
-        <link rel="shortcut icon" href="img/801875F9E9505F1CCBC6.png" type="image/x-icon" />
-        <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
-        <link rel="stylesheet" href="css/style.css" />
-        <script src="https://cdn.tailwindcss.com"></script> 
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&family=Public+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css" />
-    </head>
-    <body class="light-mode" data-scroll-container>
-        <div class="animatedloader loader" id="loader">
-            <h1 class="font-semibold text-2xl make-magnet">Nityasha</h1>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nityasha | Home</title>
+    <link rel="shortcut icon" href="img/801875F9E9505F1CCBC6.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&family=Public+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css" />
+</head>
+
+<body class="light-mode" data-scroll-container>
+    <div class="animatedloader loader" id="loader">
+        <h1 class="font-semibold text-2xl make-magnet">Nityasha</h1>
+    </div>
+    <style>
+        .tr__nav__humburger {
+            background: hsla(222, 6%, 67%, 0.2);
+            position: relative;
+            display: flex;
+            height: 3rem;
+            width: 3rem;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: flex-end;
+            border-radius: 9999px;
+            padding-right: 10px;
+            transition: all 0.3s ease;
+            /* Smooth transition */
+        }
+
+        .lineroted1,
+        .lineroted2 {
+            display: block;
+            width: 27px;
+            height: 3px;
+            background-color: #000;
+            margin: 5px auto;
+            transition: transform 0.3s ease;
+        }
+
+        .full-screen-div {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background-color: #eef3f3;
+            padding-left: 3vw;
+            padding-right: 3vw;
+            transform: translateY(100%);
+            display: none;
+            align-items: center;
+            z-index: 1019;
+            color: white;
+            font-size: 24px;
+            transition: transform 0.5s ease;
+            /* Smooth transition */
+        }
+
+        .close-button {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: transparent;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+        }
+    </style>
+    <header>
+        <h1 class="font-semibold text-2xl asdhasiudoasdasdasdasda">nityasha®</h1>
+        <div id="header2" style="margin-left: -2.1vw;">
+            <button onclick="toggleMode()"
+                class="mode-toggle w-[2vw] h-[2vw]  cursor-pointer z-2 flex justify-center items-center make-magnet">
+                <img alt="Trionn" loading="lazy" width="32" height="32" decoding="async" data-nimg="1"
+                    class="w-full h-full tr__cursor__hoverable tr__magnetic"
+                    src="/_next/static/media/dark-mode-icon.db0ad99a.svg"
+                    style="color: transparent; translate: none; rotate: none; scale: none; transform: translate(0px, 0px)" />
+            </button>
+            <button onclick="togglePlay()"
+                class="w-[2vw] h-[2vw] cursor-pointer p-0.5 z-2 flex justify-center items-center rounded-full tr__cursor__hoverable tr__magnetic sound-icon make-magnet"
+                style="background: rgba(217, 217, 217, 0.1); border-radius: 100%;margin-left: .25rem;">
+                <img alt="Trionn" loading="lazy" width="32" height="32" decoding="async" data-nimg="1"
+                    class="w-full h-full" src="/_next/static/media/sound-mute.99b17403.svg"
+                    style="color: transparent" />
+            </button>
         </div>
-        <style>
-            .tr__nav__humburger {
-                background: hsla(222, 6%, 67%, 0.2);
-                position: relative;
-                display: flex;
-                height: 3rem;
-                width: 3rem;
-                align-items: center;
-                justify-content: center;
-                flex-wrap: wrap;
-                align-items: center;
-                justify-content: flex-end;
-                border-radius: 9999px;
-                padding-right: 10px;
-                transition: all 0.3s ease; /* Smooth transition */
-            }
 
-            .lineroted1,
-            .lineroted2 {
-                display: block;
-                width: 27px;
-                height: 3px;
-                background-color: #000;
-                margin: 5px auto;
-                transition: transform 0.3s ease;
-            }
-
-            .full-screen-div {
-                position: fixed;
-                top: 0;
-                left: 0;
-                width: 100vw;
-                height: 100vh;
-                background-color: #eef3f3;
-                padding-left: 3vw;
-                padding-right: 3vw;
-                transform: translateY(100%);
-                display: none;
-                align-items: center;
-                z-index: 1019;
-                color: white;
-                font-size: 24px;
-                transition: transform 0.5s ease; /* Smooth transition */
-            }
-
-            .close-button {
-                position: absolute;
-                top: 20px;
-                right: 20px;
-                background-color: transparent;
-                color: white;
-                border: none;
-                cursor: pointer;
-                font-size: 18px;
-            }
-        </style>
-        <header>
-            <h1 class="font-semibold text-2xl asdhasiudoasdasdasdasda">nityasha®</h1>
-            <div id="header2" style="margin-left: -2.1vw;">
-                <button onclick="toggleMode()" class="mode-toggle w-[2vw] h-[2vw]  cursor-pointer z-2 flex justify-center items-center make-magnet">
-                    <img alt="Trionn" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" class="w-full h-full tr__cursor__hoverable tr__magnetic" src="/_next/static/media/dark-mode-icon.db0ad99a.svg" style="color: transparent; translate: none; rotate: none; scale: none; transform: translate(0px, 0px)" />
-                </button>
-                <button onclick="togglePlay()" class="w-[2vw] h-[2vw] cursor-pointer p-0.5 z-2 flex justify-center items-center rounded-full tr__cursor__hoverable tr__magnetic sound-icon make-magnet" style="background: rgba(217, 217, 217, 0.1); border-radius: 100%;margin-left: .25rem;">
-                    <img alt="Trionn" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" class="w-full h-full" src="/_next/static/media/sound-mute.99b17403.svg" style="color: transparent" />
-                </button>
-            </div>
-
-            <div class="nav-btn">
-                <p>menu</p>
-                <div class="menu-icon make-magnet">
-                    <div class="lines">
-                        <div class="line"></div>
-                        <div class="line"></div>
-                    </div>
+        <div class="nav-btn">
+            <p>menu</p>
+            <div class="menu-icon make-magnet">
+                <div class="lines">
+                    <div class="line"></div>
+                    <div class="line"></div>
                 </div>
             </div>
-        </header>
+        </div>
+    </header>
 
-        <!-- Nav Options -->
-        <ul class="nav-list">
-            <li><a href="#" class="magnet-target2">HOME</a></li>
-            <li><a href="#" class="magnet-target2">ABOUT</a></li>
-            <li><a href="#" class="magnet-target2">SERVICES</a></li>
-            <li><a href="#" class="magnet-target2">TEAM</a></li>
-            <li><a href="#" class="magnet-target2">CONTENT</a></li>
-            <div class="magnet-target2" style="margin-left: 80%;">
-                info@nityasha.com
+    <!-- Nav Options -->
+    <ul class="nav-list">
+        <li><a href="#" class="magnet-target2">HOME</a></li>
+        <li><a href="#" class="magnet-target2">ABOUT</a></li>
+        <li><a href="#" class="magnet-target2">SERVICES</a></li>
+        <li><a href="#" class="magnet-target2">TEAM</a></li>
+        <li><a href="#" class="magnet-target2">CONTENT</a></li>
+        <div class="magnet-target2" style="margin-left: 80%;">
+            info@nityasha.com
+        </div>
+    </ul>
+
+    <div id="main" style="height: 1000vh">
+        <div class="Homemaintext">
+            <h1 class="menu-para"><span>freelancing</span><span>anytime, anywhere.</span></h1>
+            <p class="make-magnet asdasdisfd">freelancers to work on projects with flexible timelines, and clients® can
+                access freelancers from anywhere at any time.</p>
+            <div class="mainiconscroll">
+                <a href class="asdasdisfd2"><img alt="Trionn" loading="lazy" width="24" height="24" decoding="async"
+                        data-nimg="1" class="opacity-60 make-magnet"
+                        src="/_next/static/media/move-down-dark.e55c1fb4.svg" style="color: transparent" /></a>
             </div>
-        </ul>
-
-        <div id="main" style="height: 1000vh">
-            <div class="Homemaintext">
-                <h1 class="menu-para"><span>freelancing</span><span>anytime, anywhere.</span></h1>
-                <p class="make-magnet asdasdisfd">freelancers to work on projects with flexible timelines, and clients® can access freelancers from anywhere at any time.</p>
-                <div class="mainiconscroll">
-                    <a href class="asdasdisfd2"><img alt="Trionn" loading="lazy" width="24" height="24" decoding="async" data-nimg="1" class="opacity-60 make-magnet" src="/_next/static/media/move-down-dark.e55c1fb4.svg" style="color: transparent" /></a>
+            <div class="uaygd7afsd5adyusad" style="height: 79vh">
+                <div id="buttonsPPchoverhomes" class="buttons-container">
+                    <a href="#" class="magnet-target2"
+                        style="display: flex; align-items: center; justify-content: center"><span
+                            class="asd8asdyasd ">Explore Work</span>
+                        <div class="asdha9sud7adgdgh6gfh4b " style="margin-top: 5px; position: absolute"></div>
+                    </a>
                 </div>
-                <div class="uaygd7afsd5adyusad" style="height: 79vh">
-                    <div id="buttonsPPchoverhomes" class="buttons-container">
-                        <a href="#" class="magnet-target2"  style="display: flex; align-items: center; justify-content: center"
-                            ><span class="asd8asdyasd ">Explore Work</span>
-                            <div class="asdha9sud7adgdgh6gfh4b " style="margin-top: 5px; position: absolute"></div
-                        ></a>
-                    </div>
-                    <!-- <div class="asdjadasdasdasdD make-magnet make-magnet3 videosrcroll">
+                <!-- <div class="asdjadasdasdasdD make-magnet make-magnet3 videosrcroll">
                         <video src="intro-video.mp4"></video>
                     </div> -->
-                    <div id="buttonsPPchoverhomes" class="buttons-container">
-                        <a href="#" class="magnet-target2"  style="display: flex; align-items: center; justify-content: center"
-                            ><span class="asd8asdyasd ">Get in touch</span>
-                            <div class="asdha9sud7adgdgh6gfh4b " style="margin-top: 5px; position: absolute"></div
-                        ></a>
-                    </div>
-                </div>
-            </div>
-            <!-- Modifications by SAJID -->
-            <div class="video-con">
-                <video src="intro-video.mp4" autoplay muted loop></video>
-            </div>
-
-            <div class="a8fcrdfvd8yuyvdiufgvfd687g">
-                <div class="audisfcudgvdyhsa7d">
-                    <h1 class="sfohfasiudhasdasd">
-                        recent
-                        work
-                    </h1>
-                    <p>
-                        In the creative wilderness,
-clients find our work truly 
-beloved
-                    </p>
-                    <div id="buttonsPPchoverhomes" class="buttons-container ml-[89.7%]">
-                        <a href="#" class="magnet-target2"  style="display: flex; align-items: center; justify-content: center"
-                            ><span class="asd8asdyasd ">Explore Work</span>
-                            <div class="asdha9sud7adgdgh6gfh4b " style="margin-top: 5px; position: absolute"></div
-                        ></a>
-                    </div>
-                </div>
-            </div>
-            <div class="yudsa76ydsudxsxyasdjhasduyasd">
-                <div class="asdoiuasduiasudybsad">
-                    <h1 class="text-target">loftloom</h1>
-                    <p>UI Design, UX, Wireframe</p>
-                    <div id="buttonsPPchoverhomes" class="buttons-container" style="margin-top: 3vw;">
-                        <a href="#" class="magnet-target2"  style="display: flex; align-items: center; justify-content: center"
-                            ><span class="asd8asdyasd ">explore work </span>
-                            <div class="asdha9sud7adgdgh6gfh4b " style="margin-top: 5px; position: absolute"></div
-                        ></a>
-                    </div>
-                </div>
-                <div class="asudihasdhasd">
-                    <img src="https://trionn.com/assets/images/works/loftloom/loftloom-main-landscape.webp" alt="" class="asdasidasiund" id="asdasidasiund">
-                </div>
-            </div>
-            <div class="yudsa76ydsudxsxyasdjhasduyasd">
-                <div class="asudihasdhasd">
-                    <img src="https://trionn.com/assets/images/works/loftloom/loftloom-main-landscape.webp" alt="" class="asdasidasiund" id="asdasidasiund">
-                </div>
-                <div class="asdoiuasduiasudybsad">
-                    <h1 class="text-target">loftloom</h1>
-                    <p>UI Design, UX, Wireframe</p>
-                    <div id="buttonsPPchoverhomes" class="buttons-container" style="margin-top: 3vw;">
-                        <a href="#" class="magnet-target2"  style="display: flex; align-items: center; justify-content: center"
-                            ><span class="asd8asdyasd ">Explore Work</span>
-                            <div class="asdha9sud7adgdgh6gfh4b " style="margin-top: 5px; position: absolute"></div
-                        ></a>
-                    </div>
-                </div>
-
-            </div>
-            <div class="yudsa76ydsudxsxyasdjhasduyasd">
-                <div class="asdoiuasduiasudybsad">
-                    <h1 class="text-target">loftloom</h1>
-                    <p>UI Design, UX, Wireframe</p>
-                    <div id="buttonsPPchoverhomes" class="buttons-container" style="margin-top: 3vw;">
-                        <a href="#" class="magnet-target2"  style="display: flex; align-items: center; justify-content: center"
-                            ><span class="asd8asdyasd ">explore work </span>
-                            <div class="asdha9sud7adgdgh6gfh4b " style="margin-top: 5px; position: absolute"></div
-                        ></a>
-                    </div>
-                </div>
-                <div class="asudihasdhasd">
-                    <img src="https://trionn.com/assets/images/works/loftloom/loftloom-main-landscape.webp" alt="" class="asdasidasiund" id="asdasidasiund">
+                <div id="buttonsPPchoverhomes" class="buttons-container">
+                    <a href="#" class="magnet-target2"
+                        style="display: flex; align-items: center; justify-content: center"><span
+                            class="asd8asdyasd ">Get in touch</span>
+                        <div class="asdha9sud7adgdgh6gfh4b " style="margin-top: 5px; position: absolute"></div>
+                    </a>
                 </div>
             </div>
         </div>
-        <audio id="audioPlayer" src="https://trionn.com/assets/audio/jungle-day.mp3"></audio>
-        <!-- <canvas id="renderSurface"></canvas> -->
-        <!-- <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script> -->
+        <!-- Modifications by SAJID -->
+        <div class="video-con">
+            <video src="intro-video.mp4" autoplay muted loop></video>
+        </div>
+
+        <div class="a8fcrdfvd8yuyvdiufgvfd687g">
+            <div class="audisfcudgvdyhsa7d">
+                <h1 class="sfohfasiudhasdasd">
+                    recent
+                    work
+                </h1>
+                <p>
+                    In the creative wilderness,
+                    clients find our work truly
+                    beloved
+                </p>
+                <div id="buttonsPPchoverhomes" class="buttons-container ml-[89.7%]">
+                    <a href="#" class="magnet-target2"
+                        style="display: flex; align-items: center; justify-content: center"><span
+                            class="asd8asdyasd ">Explore Work</span>
+                        <div class="asdha9sud7adgdgh6gfh4b " style="margin-top: 5px; position: absolute"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="yudsa76ydsudxsxyasdjhasduyasd">
+            <div class="asdoiuasduiasudybsad">
+                <h1 class="text-target">loftloom</h1>
+                <p>UI Design, UX, Wireframe</p>
+                <div id="buttonsPPchoverhomes" class="buttons-container" style="margin-top: 3vw;">
+                    <a href="#" class="magnet-target2"
+                        style="display: flex; align-items: center; justify-content: center"><span
+                            class="asd8asdyasd ">explore work </span>
+                        <div class="asdha9sud7adgdgh6gfh4b " style="margin-top: 5px; position: absolute"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="asudihasdhasd">
+                <img src="https://trionn.com/assets/images/works/loftloom/loftloom-main-landscape.webp" alt=""
+                    class="asdasidasiund" id="asdasidasiund">
+            </div>
+        </div>
+        <div class="yudsa76ydsudxsxyasdjhasduyasd">
+            <div class="asudihasdhasd">
+                <img src="https://trionn.com/assets/images/works/loftloom/loftloom-main-landscape.webp" alt=""
+                    class="asdasidasiund" id="asdasidasiund">
+            </div>
+            <div class="asdoiuasduiasudybsad">
+                <h1 class="text-target">loftloom</h1>
+                <p>UI Design, UX, Wireframe</p>
+                <div id="buttonsPPchoverhomes" class="buttons-container" style="margin-top: 3vw;">
+                    <a href="#" class="magnet-target2"
+                        style="display: flex; align-items: center; justify-content: center"><span
+                            class="asd8asdyasd ">Explore Work</span>
+                        <div class="asdha9sud7adgdgh6gfh4b " style="margin-top: 5px; position: absolute"></div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <div class="yudsa76ydsudxsxyasdjhasduyasd">
+            <div class="asdoiuasduiasudybsad">
+                <h1 class="text-target">loftloom</h1>
+                <p>UI Design, UX, Wireframe</p>
+                <div id="buttonsPPchoverhomes" class="buttons-container" style="margin-top: 3vw;">
+                    <a href="#" class="magnet-target2"
+                        style="display: flex; align-items: center; justify-content: center"><span
+                            class="asd8asdyasd ">explore work </span>
+                        <div class="asdha9sud7adgdgh6gfh4b " style="margin-top: 5px; position: absolute"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="asudihasdhasd">
+                <img src="https://trionn.com/assets/images/works/loftloom/loftloom-main-landscape.webp" alt=""
+                    class="asdasidasiund" id="asdasidasiund">
+            </div>
+        </div>
+        <div class="asdhsaudsadxvsadbasd">
+            <div class="asoudhasiudhasidasdsad">
+                <h1>who</h1>
+                <h1 class="asdoasiduasiudsad">we are</h1>
+                <p class="mb-10">As an award-winning agency within the digital jungle, TRIONN® transcends aesthetics,
+                    crafting your vision into a legacy that endures.</p>
+            </div>
+            <div class="asdasidhsadxa9shdnads">
+                <div class="ashd8ashduyasdyasdas">
+                    <p class="mb-10">We roar with creativity, staying updated with the latest tech to make your brand a
+                        formidable force in the digital wilderness and deliver exceptional website and app experiences.</p>
+                    <div id="buttonsPPchoverhomes" class="buttons-container">
+                        <a href="#" class="magnet-target2"
+                            style="display: flex; align-items: center; justify-content: center"><span
+                                class="asd8asdyasd ">Explore Work</span>
+                            <div class="asdha9sud7adgdgh6gfh4b " style="margin-top: 5px; position: absolute"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <audio id="audioPlayer" src="https://trionn.com/assets/audio/jungle-day.mp3"></audio>
+    <!-- <canvas id="renderSurface"></canvas> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script> -->
 
     <script src="https://unpkg.com/@studio-freight/lenis@1.0.34/dist/lenis.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
@@ -213,12 +260,13 @@ beloved
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script> -->
     <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
     <script type="text/javascript" src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
-        <!-- Recommended -->
-        <script src="js/shry.js"></script>
-        <!-- <script src="js/fluid.js"></script> -->
-        <script src="js/app.js"></script>
-        <script src="js/gsap.js"></script>
-        <!-- <script src="js/shary.js"></script> -->
-        <script></script>
-    </body>
+    <!-- Recommended -->
+    <script src="js/shry.js"></script>
+    <!-- <script src="js/fluid.js"></script> -->
+    <script src="js/app.js"></script>
+    <script src="js/gsap.js"></script>
+    <!-- <script src="js/shary.js"></script> -->
+    <script></script>
+</body>
+
 </html>
