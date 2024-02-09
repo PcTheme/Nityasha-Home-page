@@ -563,8 +563,8 @@ li a {
 
 .video-con {
     width: 100%;
-    height: 100vh;
-    padding: 115px;
+    height: 121vh;
+    padding: 113px;
     /* background-color: black; */
 }
 
@@ -642,7 +642,7 @@ li a {
     text-align: center;
 }
 .circle {font-family: Lexend; color: #fff;}
-.mousefollower{filter: blur(1px); color: #fff;
+.mousefollower{filter: blur(0.2vw); color: #fff;
     mix-blend-mode: difference;
 }
 

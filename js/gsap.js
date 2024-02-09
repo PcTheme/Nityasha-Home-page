@@ -43,8 +43,9 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     gsap.from(".video-con video", {
-        scale: 0.2,
-        yPercent: -100,
+        scale: 0.14,
+        yPercent: -130,
+        width: "",
         borderRadius: "400",
         scrollTrigger: {
             trigger: ".video-con",
