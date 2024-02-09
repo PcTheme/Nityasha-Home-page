@@ -104,7 +104,7 @@ gsap.from(".asdasidasiund", {
         start: "left right",
         end: "center center",
         scrub: 2,
-        rotate: "10deg",
+        rotate: "360    deg",
     }
 });
 

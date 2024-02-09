@@ -34,7 +34,7 @@ body.dark-mode h1, body.dark-mode h2, body.dark-mode h3, body.dark-mode h4, body
 }
 
 body.light-mode {
-    background: #C5FCFC;
+    background: #EEF3F3;
     color: #000000;
 }
 
@@ -129,7 +129,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    /* gap: 10px; */
 }
 
 #header3 {
@@ -147,14 +147,9 @@ ul {
     justify-content: center;
 }
 
-body.dark-mode {
-    background-color: #222;
-    color: #fff;
-}
-
-body.light-mode {
-    background-color: #fff;
-    color: #222;
+#main{
+    padding-left: 7rem;
+    padding-right: 7rem;
 }
 
 .animatedloader {
@@ -304,6 +299,7 @@ li a {
     flex-direction: column;
     width: 30vw;
     text-align: center;
+    font-weight: 900;
     font-size: 1vw;
     font-weight: 500;
     font-family: 'Plus Jakarta Sans', sans-serif;
@@ -324,7 +320,7 @@ li a {
     width: 100%;
     display: flex;
     align-items: center;
-    padding: 10vh;
+    /* padding: 10vh; */
     justify-content: space-between;
 }
 
@@ -521,7 +517,7 @@ li a {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    gap: 2vw;
+    gap: 1vw;
 }
 
 .nav-btn p {
@@ -590,14 +586,14 @@ li a {
 .audisfcudgvdyhsa7d h1{
     font-size: 9vw;
     width: 10%;
-    padding-left: 10%;
-    padding-right: 10%;
+    /* padding-left: ; */
+    /* padding-right: 10%; */
     font-family: 10px;
 }
 .audisfcudgvdyhsa7d p{
     font-size: 29px;
     width: 30%;
-    padding-left: 10%;
+    /* padding-left: 10%; */
     line-height: 36px;
     color: #3f4144;
     font-family: Lexend;
@@ -612,7 +608,7 @@ li a {
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    padding-left: 9vw;
+    /* padding-left: 6vw; */
     width: 50%;
 }
 .asdoiuasduiasudybsad h1{
@@ -643,6 +639,9 @@ li a {
 }
 .circle {font-family: Lexend; color: #fff;}
 .mousefollower{filter: blur(0.2vw); color: #fff;
-    mix-blend-mode: difference;
 }
 
+.menu-para span{
+    font-size: 3vw;
+    font-weight: 900;
+}
