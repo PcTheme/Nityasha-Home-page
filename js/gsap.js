@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     gsap.registerPlugin(ScrollTrigger);
 
     gsap.to('.magnet-target2', {
@@ -16,31 +16,66 @@ document.addEventListener('DOMContentLoaded', function() {
 
     var tl = gsap.timeline();
 
-    tl.from(".Nityshadsa, .asdsadasdadggfbujuik, .asdsadasdadggfbujuik2 , .tr__cursor__hoverable", { 
-        translateY: "-200px", 
-        opacity: 0,     
-        duration: 2, 
-        stagger: 0.2, 
-        ease: "power2.out" 
+    tl.from(".Nityshadsa, .asdsadasdadggfbujuik, .asdsadasdadggfbujuik2 , .tr__cursor__hoverable", {
+        translateY: "-200px",
+        opacity: 0,
+        duration: 2,
+        stagger: 0.2,
+        ease: "power2.out"
     });
 
     var tl2 = gsap.timeline();
 
-    tl2.from(".make-magnet3 , .asdasdisfd", { 
-        opacity: 0,     
+    tl2.from(".make-magnet3 , .asdasdisfd", {
+        opacity: 0,
         duration: 2,
-        translateY: "-100px",  
+        translateY: "-100px",
         delay: 1,
-        stagger: 0.1, 
+        stagger: 0.1,
         ease: "power2.out"
     });
-    
-    tl2.from(".asdasdisfd2", { 
-        opacity: 0,     
+
+    tl2.from(".asdasdisfd2", {
+        opacity: 0,
         duration: 0.5,
-        translateY: "-50px",  
+        translateY: "-50px",
         ease: "power2.out"
     });
+// Animation for first card
+tl2.from(".asiudha8sdhasuduysagdagsd", {
+    x: "-200%",
+    scale: 2,
+    rotate: "-20.7668deg",
+    backgroundSize: "0% 100%",
+    backgroundPositionX: "-1.28%", // animate background position x
+    scrollTrigger: {
+        backgroundColor: "#000",
+        trigger: ".asiudha8sdhasuduysagdagsd",
+        start: "left right",
+        end: "center center",
+        scrub: 0.2,
+        rotate: "-20.7668deg",
+        onComplete: function() {
+            // Animation for second card starts after the first one completes
+            tl2.from(".asiudha8sdhasuduysagdagsd3", {
+                x: "-200%",
+                scale: 2,
+                rotate: "-20.7668deg",
+                backgroundSize: "0% 100%",
+                backgroundPositionX: "-1.28%", // animate background position x
+                scrollTrigger: {
+                    backgroundColor: "#000",
+                    trigger: ".asiudha8sdhasuduysagdagsd",
+                    start: "left right",
+                    end: "center center",
+                    scrub: 0.2,
+                    rotate: "-20.7668deg",
+                }
+            });
+        }
+    }
+});
+    
 
     gsap.from(".video-con video", {
         scale: 0.14,
@@ -57,7 +92,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
     // Listen for the scroll event on the window
-    window.addEventListener('scroll', function() {
+    window.addEventListener('scroll', function () {
         // Check if the element you want to animate is in view
         var element = document.querySelector('.videoscroll');
         if (element) {
@@ -109,15 +144,16 @@ gsap.from(".asdoasiduasiudsad", {
 
 gsap.from(".asdasidasiund", {
     // scale: 0.2,
-        y: "-100%",
-        backgroundSize: "0% 100%",
-        backgroundPositionX: "-1.28%", // animate background position x
-        scrollTrigger: {
-            backgroundColor: "#000",
-            trigger: ".asdasidasiund",
-            start: "left right",
-            end: "center center",
-            scrub: 2,
-            rotate: "10deg",
-        }
-    });
+    y: "-100%",
+    backgroundSize: "0% 100%",
+    backgroundPositionX: "-1.28%", // animate background position x
+    scrollTrigger: {
+        backgroundColor: "#000",
+        trigger: ".asdasidasiund",
+        start: "left right",
+        end: "center center",
+        scrub: 2,
+        rotate: "10deg",
+    }
+});
+

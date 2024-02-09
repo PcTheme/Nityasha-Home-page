@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&family=Public+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
 
 * {
     margin: 0;
@@ -727,7 +728,8 @@ body.light-mode .asdha9sud7adgdgh6gfh4b {
     color: #3f4144;
     font-family: Syne;
 }
-.asdasidhsadxa9shdnads{
+
+.asdasidhsadxa9shdnads {
     width: 68%;
     height: 10vw;
     justify-content: end;
@@ -735,8 +737,205 @@ body.light-mode .asdha9sud7adgdgh6gfh4b {
     /* flex-direction: column; */
     display: flex;
 }
-.asdasidhsadxa9shdnads p{
+
+.asdasidhsadxa9shdnads p {
     font-family: Syne;
     width: 20vw;
-    font-size: 1.055rem ;
+    font-size: 1.055rem;
+}
+
+.asiudha8sdhasuduysagdagsd {
+    background: rgba(220, 229, 229, .7);
+    will-change: transform, color, background;
+    position: relative;
+    width: 40vw;
+    height: 21vw;
+    z-index: 0;
+    display: inline-block;
+    transition: all .5s ease;
+    border-radius: 1.5rem;
+    padding: 3.5rem;
+}
+
+.asiudha8sdhasuduysagdagsd:hover {
+    color: #e0eeee;
+    transition: all .5s ease;
+    background: #DF4D1E;
+}
+
+.asiudha8sdhasuduysagdagsd:hover * {
+    color: #fff;
+    transition: all .5s ease;
+}
+
+
+.asiudha8sdhasuduysagdagsd h1 {
+    font-size: 5vw;
+    margin-bottom: 7    rem;
+    /* color: #e0eeee; */
+    font-family: DM Mono;
+}
+
+.asiudha8sdhasuduysagdagsd h2 {
+    font-family: "Dirtyline 36Daysoftype 2022";
+    font-size: 1.9rem;
+    line-height: 1.6rem;
+    transition: all .5s ease;
+    width: 100%;
+    align-self: flex-end;
+    text-align: right;
+}
+.abdasbdasbgdasdbasudvas{
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    gap: 1.25rem;
+    display: grid;
+    align-items: center;
+    padding-bottom: 10rem;
+}
+.asiudha8sdhasuduysagdagsd2 {
+    background: rgba(220, 229, 229, .7);
+    will-change: transform, color, background;
+    position: relative;
+    width: 40vw;
+    height: 21vw;
+    z-index: 0;
+    display: inline-block;
+    transition: all .5s ease;
+    border-radius: 1.5rem;
+    padding: 3.5rem;
+}
+
+.asiudha8sdhasuduysagdagsd2:hover {
+    color: #e0eeee;
+    transition: all .5s ease;
+    background: #DF4D1E;
+}
+
+.asiudha8sdhasuduysagdagsd2:hover * {
+    color: #fff;
+    transition: all .5s ease;
+}
+
+
+.asiudha8sdhasuduysagdagsd2 h1 {
+    font-size: 5vw;
+    margin-bottom: 7 rem;
+    /* color: #e0eeee; */
+    font-family: DM Mono;
+}
+
+.asiudha8sdhasuduysagdagsd2 h2 {
+    font-family: "Dirtyline 36Daysoftype 2022";
+    font-size: 1.9rem;
+    line-height: 1.6rem;
+    transition: all .5s ease;
+    width: 100%;
+    align-self: flex-end;
+    text-align: right;
+}
+
+.abdasbdasbgdasdbasudvas {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.25rem;
+    display: grid;
+    align-items: center;
+    padding-bottom: 10rem;
+}
+.asiudha8sdhasuduysagdagsd3 {
+    background: rgba(220, 229, 229, .7);
+    will-change: transform, color, background;
+    position: relative;
+    width: 40vw;
+    height: 21vw;
+    z-index: 0;
+    display: inline-block;
+    transition: all .5s ease;
+    border-radius: 1.5rem;
+    padding: 3.5rem;
+}
+
+.asiudha8sdhasuduysagdagsd3:hover {
+    color: #e0eeee;
+    transition: all .5s ease;
+    background: #DF4D1E;
+}
+
+.asiudha8sdhasuduysagdagsd3:hover * {
+    color: #fff;
+    transition: all .5s ease;
+}
+
+
+.asiudha8sdhasuduysagdagsd3 h1 {
+    font-size: 5vw;
+    margin-bottom: 7 rem;
+    /* color: #e0eeee; */
+    font-family: DM Mono;
+}
+
+.asiudha8sdhasuduysagdagsd3 h2 {
+    font-family: "Dirtyline 36Daysoftype 2022";
+    font-size: 1.9rem;
+    line-height: 1.6rem;
+    transition: all .5s ease;
+    width: 100%;
+    align-self: flex-end;
+    text-align: right;
+}
+
+.abdasbdasbgdasdbasudvas {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.25rem;
+    display: grid;
+    align-items: center;
+    padding-bottom: 10rem;
+}
+.asiudha8sdhasuduysagdagsd4 {
+    background: rgba(220, 229, 229, .7);
+    will-change: transform, color, background;
+    position: relative;
+    width: 40vw;
+    height: 21vw;
+    z-index: 0;
+    display: inline-block;
+    transition: all .5s ease;
+    border-radius: 1.5rem;
+    padding: 3.5rem;
+}
+
+.asiudha8sdhasuduysagdagsd4:hover {
+    color: #e0eeee;
+    transition: all .5s ease;
+    background: #DF4D1E;
+}
+
+.asiudha8sdhasuduysagdagsd4:hover * {
+    color: #fff;
+    transition: all .5s ease;
+}
+
+
+.asiudha8sdhasuduysagdagsd4 h1 {
+    font-size: 5vw;
+    margin-bottom: 7 rem;
+    /* color: #e0eeee; */
+    font-family: DM Mono;
+}
+
+.asiudha8sdhasuduysagdagsd4 h2 {
+    font-family: "Dirtyline 36Daysoftype 2022";
+    font-size: 1.9rem;
+    line-height: 1.6rem;
+    transition: all .5s ease;
+    width: 100%;
+    align-self: flex-end;
+    text-align: right;
+}
+
+.abdasbdasbgdasdbasudvas {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.25rem;
+    display: grid;
+    align-items: center;
+    padding-bottom: 10rem;
 }
