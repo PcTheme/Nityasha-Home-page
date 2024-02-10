@@ -41,134 +41,134 @@ document.addEventListener('DOMContentLoaded', function () {
         translateY: "-50px",
         ease: "power2.out"
     });
-// Animation for first card
-tl2.from(".asiudha8sdhasuduysagdagsd", {
-    x: "-200%",
-    scale: 2,
-    rotate: "-20.7668deg",
-    backgroundSize: "0% 100%",
-    backgroundPositionX: "-1.28%", // animate background position x
-    scrollTrigger: {
-        backgroundColor: "#000",
-        trigger: ".asiudha8sdhasuduysagdagsd",
-        start: "left right",
-        end: "center center",
-        scrub: 0.2,
+    // Animation for first card
+    tl2.from(".asiudha8sdhasuduysagdagsd", {
+        x: "-200%",
+        scale: 2,
         rotate: "-20.7668deg",
-        onComplete: function() {
+        backgroundSize: "0% 100%",
+        backgroundPositionX: "-1.28%", // animate background position x
+        scrollTrigger: {
+            backgroundColor: "#000",
+            trigger: ".asiudha8sdhasuduysagdagsd",
+            start: "left right",
+            end: "center center",
+            scrub: 0.2,
+            rotate: "-20.7668deg",
+            onComplete: function () {
+            }
         }
-    }
-});
-    
-tl2.from(".asiudha8sdhasuduysagdagsd3", {
-    x: "-200%",
-    scale: 2,
-    rotate: "20.7668deg",
-    // backgroundSize: "0% 100%",
-    backgroundPositionX: "-1.28%", // animate background position x
-    scrollTrigger: {
-        backgroundColor: "#000",
-        trigger: ".asiudha8sdhasuduysagdagsd3",
-        start: "left right",
-        end: "center center",
-        scrub: 0.0 ,
-        rotate: "-20.7668deg",
-        onComplete: function() {
-        }
-    }
-});
-tl2.from(".asiudha8sdhasuduysagdagsd2", {
-    x: "200%", // Fixed position at 200%
-    scale: 2,
-    rotate: "20.7668deg",
-    // backgroundSize: "0% 100%",
-    backgroundPositionX: "-1.28%", // animate background position x
-    scrollTrigger: {
-        backgroundColor: "#000",
-        trigger: ".asiudha8sdhasuduysagdagsd2",
-        start: "left right",
-        end: "center center",
-        scrub: 0.0 ,
-        rotate: "20.7668deg",
-        onComplete: function() {
-            // Your onComplete function code here
-        }
-    }
-});
-tl2.from(".asiudha8sdhasuduysagdagsd4", {
-    x: "200%", // Fixed position at 200%
-    scale: 2,
-    rotate: "20.7668deg",
-    // backgroundSize: "0% 100%",
-    backgroundPositionX: "-1.28%", // animate background position x
-    scrollTrigger: {
-        backgroundColor: "#000",
-        trigger: ".asiudha8sdhasuduysagdagsd4",
-        start: "left right",
-        end: "center center",
-        scrub: 0.0 ,
-        rotate: "20.7668deg",
-        onComplete: function() {
-            // Your onComplete function code here
-        }
-    }
-});
-tl2.from(".asdasidasiund1", {
-    x: "200%", // Fixed position at 200%
-    scale: 2,
-    rotate: "20.7668deg",
-    // backgroundSize: "0% 100%",
-    backgroundPositionX: "-1.28%", // animate background position x
-    scrollTrigger: {
-        backgroundColor: "#000",
-        trigger: ".asdasidasiund1",
-        start: "left right",
-        end: "center center",
-        scrub: 0.0 ,
-        rotate: "20.7668deg",
-        onComplete: function() {
-            // Your onComplete function code here
-        }
-    }
-});
+    });
 
-tl2.from(".asdasidasiund2", {
-    x: "-200%",
-    scale: 2,
-    rotate: "-20.7668deg",
-    // backgroundSize: "0% 100%",
-    backgroundPositionX: "-1.28%", // animate background position x
-    scrollTrigger: {
-        backgroundColor: "#000",
-        trigger: ".asdasidasiund2",
-        start: "left right",
-        borderRadius: "10px",
-        end: "center center",
-        scrub: 0.0 ,
-        rotate: "-20.7668deg",
-        onComplete: function() {
-        }
-    }
-});
-tl2.from(".asdasidasiund56", {
-    x: "200%", // Fixed position at 200%
-    scale: 2,
-    rotate: "20.7668deg",
-    // backgroundSize: "0% 100%",
-    backgroundPositionX: "-1.28%", // animate background position x
-    scrollTrigger: {
-        backgroundColor: "#000",
-        trigger: ".asdasidasiund56",
-        start: "left right",
-        end: "center center",
-        scrub: 0.0 ,
+    tl2.from(".asiudha8sdhasuduysagdagsd3", {
+        x: "-200%",
+        scale: 2,
         rotate: "20.7668deg",
-        onComplete: function() {
-            // Your onComplete function code here
+        // backgroundSize: "0% 100%",
+        backgroundPositionX: "-1.28%", // animate background position x
+        scrollTrigger: {
+            backgroundColor: "#000",
+            trigger: ".asiudha8sdhasuduysagdagsd3",
+            start: "left right",
+            end: "center center",
+            scrub: 0.0,
+            rotate: "-20.7668deg",
+            onComplete: function () {
+            }
         }
-    }
-});
-    
+    });
+    tl2.from(".asiudha8sdhasuduysagdagsd2", {
+        x: "200%", // Fixed position at 200%
+        scale: 2,
+        rotate: "20.7668deg",
+        // backgroundSize: "0% 100%",
+        backgroundPositionX: "-1.28%", // animate background position x
+        scrollTrigger: {
+            backgroundColor: "#000",
+            trigger: ".asiudha8sdhasuduysagdagsd2",
+            start: "left right",
+            end: "center center",
+            scrub: 0.0,
+            rotate: "20.7668deg",
+            onComplete: function () {
+                // Your onComplete function code here
+            }
+        }
+    });
+    tl2.from(".asiudha8sdhasuduysagdagsd4", {
+        x: "200%", // Fixed position at 200%
+        scale: 2,
+        rotate: "20.7668deg",
+        // backgroundSize: "0% 100%",
+        backgroundPositionX: "-1.28%", // animate background position x
+        scrollTrigger: {
+            backgroundColor: "#000",
+            trigger: ".asiudha8sdhasuduysagdagsd4",
+            start: "left right",
+            end: "center center",
+            scrub: 0.0,
+            rotate: "20.7668deg",
+            onComplete: function () {
+                // Your onComplete function code here
+            }
+        }
+    });
+    tl2.from(".asdasidasiund1", {
+        x: "200%", // Fixed position at 200%
+        scale: 2,
+        rotate: "20.7668deg",
+        // backgroundSize: "0% 100%",
+        backgroundPositionX: "-1.28%", // animate background position x
+        scrollTrigger: {
+            backgroundColor: "#000",
+            trigger: ".asdasidasiund1",
+            start: "left right",
+            end: "center center",
+            scrub: 0.0,
+            rotate: "20.7668deg",
+            onComplete: function () {
+                // Your onComplete function code here
+            }
+        }
+    });
+
+    tl2.from(".asdasidasiund2", {
+        x: "-200%",
+        scale: 2,
+        rotate: "-20.7668deg",
+        // backgroundSize: "0% 100%",
+        backgroundPositionX: "-1.28%", // animate background position x
+        scrollTrigger: {
+            backgroundColor: "#000",
+            trigger: ".asdasidasiund2",
+            start: "left right",
+            borderRadius: "10px",
+            end: "center center",
+            scrub: 0.0,
+            rotate: "-20.7668deg",
+            onComplete: function () {
+            }
+        }
+    });
+    tl2.from(".asdasidasiund56", {
+        x: "200%", // Fixed position at 200%
+        scale: 2,
+        rotate: "20.7668deg",
+        // backgroundSize: "0% 100%",
+        backgroundPositionX: "-1.28%", // animate background position x
+        scrollTrigger: {
+            backgroundColor: "#000",
+            trigger: ".asdasidasiund56",
+            start: "left right",
+            end: "center center",
+            scrub: 0.0,
+            rotate: "20.7668deg",
+            onComplete: function () {
+                // Your onComplete function code here
+            }
+        }
+    });
+
 
 
     gsap.from(".video-con video", {
@@ -251,3 +251,31 @@ gsap.from(".asdoiuasduiasudybsad", {
     }
 });
 
+
+gsap.from(".usadbsiaydbasidvgaysdas", {
+    // scale: 0.2,
+    x: "-100%",
+    backgroundSize: "0% 100%",
+    backgroundPositionX: "-1.28%", // animate background position x
+    scrollTrigger: {
+        backgroundColor: "#000",
+        trigger: ".usadbsiaydbasidvgaysdas",
+        start: "left right",
+        end: "center center",
+        scrub: 2,
+        rotate: "10deg",
+    }
+});
+var splide = new Splide('.abdasbdasbgdasdbasudvasasdas', {
+    type: 'loop',
+    perPage: 3,
+    autoplay: true,
+});
+
+splide.mount();
+
+
+gsap.from(".adnasidbsid", {
+    x: -100,
+    
+})
