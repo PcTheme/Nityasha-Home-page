@@ -100,12 +100,30 @@ document.addEventListener("DOMContentLoaded", function() {
     });
     
 });
-Shery.imageMasker(".asdasidasiund" /* Element to target.*/, {
-    mouseFollower: true,
-    text: "View project",
-    ease: "cubic-bezier(0.23, 1, 0.320, 1)",
-    duration: 1,
-  });
+    Shery.imageMasker(".asdasidasiund1" /* Element to target.*/, {
+        mouseFollower: true,
+        text: "View project",
+        color: "#fff",
+        ease: "cubic-bezier(0.23, 1, 0.320, 1)",
+        duration: 1,
+    });
+    Shery.imageMasker(".asdasidasiund2" /* Element to target.*/, {
+        mouseFollower: true,
+        text: "View project",
+        color: "#fff",
+        ease: "cubic-bezier(0.23, 1, 0.320, 1)",
+        duration: 1,
+    });
+    Shery.imageMasker(".asdasidasiund3" /* Element to target.*/, {
+        mouseFollower: true,
+        text: "View project",
+        color: "#fff",
+        ease: "cubic-bezier(0.23, 1, 0.320, 1)",
+        duration: 1,
+    });
+
+
+
 
   Shery.textAnimate(".text-target" /* Element to target.*/, {
     //Parameters are optional.
