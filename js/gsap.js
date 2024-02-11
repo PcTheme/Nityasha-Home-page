@@ -342,7 +342,7 @@ gsap.to("#asdiuagsodgasd", {
         start: 'top 90%',
         end: 'top 20%',
         // markers: true,
-        scrub: 5
+        scrub: 10,
     }
 })
 
@@ -354,6 +354,20 @@ gsap.from(".usadbsiaydbasidvgaysdas", {
     scrollTrigger: {
         backgroundColor: "#000",
         trigger: ".usadbsiaydbasidvgaysdas",
+        start: "left right",
+        end: "center center",
+        scrub: 2,
+        rotate: "10deg",
+    }
+});
+gsap.from(".asdosiadashodihasdao", {
+    // scale: 0.2,
+    x: "-100%",
+    backgroundSize: "0% 100%",
+    backgroundPositionX: "-1.28%", // animate background position x
+    scrollTrigger: {
+        backgroundColor: "#000",
+        trigger: ".asdosiadashodihasdao",
         start: "left right",
         end: "center center",
         scrub: 2,

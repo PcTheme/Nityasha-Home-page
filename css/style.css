@@ -1072,3 +1072,100 @@ body.light-mode .asdha9sud7adgdgh6gfh4b {
     margin-top: 1vw;
     font-family: Syne;
 }
+.asdiuayudasutdasdhbsadiubpasd{
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    margin-top: 30vw;
+    gap: 10vw;
+    margin-bottom: 30vw;
+    align-items: center;
+    justify-content: center;
+}
+.asdiuayudasutdasdhbsadiubpasd h1{
+    text-align: center;
+    font-size: 10vw;
+    width: 50vw;
+    line-height: 7.3vw;
+    text-transform: lowercase;
+}
+.asuiodgasgduapsd{
+    width: 40vw;
+    align-items: center;
+    transition: 500ms;
+    justify-content: space-between;
+    display: flex;
+    padding-bottom: 1vw;
+     border-bottom: 1px solid #3f4144;
+}
+.asuiodgasgduapsd:hover{
+    width: 50vw;
+    transition: 500ms;
+
+}
+.asuiodgasgduapsd h2{
+    font-size: 3vw;
+    font-family: syne;
+}
+.asuiodgasgduapsd img{
+    transition: 3000ms;
+    width: 3.5vw;
+}
+.asuiodgasgduapsd:hover img{
+    rotate: 360deg;
+    transition: 3000ms;
+}
+.asasdasdasdad4sadas2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+.sdgasdasdgsa8das{
+    width: 100%;
+    height: 43vh;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-between;
+}
+.sdgasdasdgsa8das h1{
+    font-size: 10vw;
+    text-transform: lowercase;
+    width: 80vw;
+    line-height: 8vw;
+}
+.duaasdaiusdhyubadhbsuydasyuvdshudas{
+    width: 100%;
+    height: 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #3f4144;
+    border-bottom: 1px solid #3f4144;
+    margin-bottom: 10vw;
+}
+.aduasoyudsauydsauydaosyd{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.asdhyuasuydsagdasgd76asfdasdusd{
+    width: 20vw;
+    height: 8vw;
+    display: flex;
+    align-items: self-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.sa98d8as8oydsa8ydasyugda{
+    font-size: 1vw;
+    font-family: syne;
+}
+.sadysagd98yuas7das9udausygd{
+    font-family: syne;
+    font-size: 1.6vw;
+    text-transform: lowercase;
+}
