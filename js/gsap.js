@@ -168,9 +168,105 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         }
     });
+    tl2.to("#suydbasuydasvdasyd1", {
+        rotate: "-45deg",
+        x: "-50%",
+        scrollTrigger: {
+            trigger: "#suydbasuydasvdasyd1",
+            // markers: true,
+            start: "top 20%",
+            end: "top 100%",
+            scrub: 7, // Adjust scrub value as needed
+            onComplete: function () {
+                // Optional: Callback function when animation is complete
+            }
+        }
+    });
+    tl2.to("#suydbasuydasvdasyd3", {
+        rotate: "-45deg",
+        x: "-50%",
+        y: "-20%",
+        scrollTrigger: {
+            trigger: "#suydbasuydasvdasyd3",
+            // markers: true,
+            start: "left right",
+            end: "center center",
+            scrub: 6, // Adjust scrub value as needed
+            onComplete: function () {
+                // Optional: Callback function when animation is complete
+            }
+        }
+    });
+    tl2.to("#suydbasuydasvdasyd5", {
+        rotate: "-45deg",
+        x: "-50%",
+        y: "-33%",
+        scrollTrigger: {
+            trigger: "#suydbasuydasvdasyd5",
+            // markers: true,
+            start: "top 100%",
+            end: "center 100%",
+            scrub: 5, // Adjust scrub value as needed
+            onComplete: function () {
+                // Optional: Callback function when animation is complete
+            }
+        }
+    });
+    tl2.to("#suydbasuydasvdasyd2", {
+        rotate: "45deg",
+        x: "50%",
+        y: "33%", 
+        transformOrigin: "top right",
+        scrollTrigger: {
+            trigger: "#suydbasuydasvdasyd2",
+            // markers: true, 
+            start: "top 20%",
+            end: "top 100%",
+            scrub: 7, // Adjust scrub value as needed
+            onComplete: function () {
+                // Optional: Callback function when animation is complete
+            }
+        }
+    });
+   
+    tl2.to("#suydbasuydasvdasyd4", {
+        rotate: "45deg",
+        x: "50%",
+        y: "33%", 
+        transformOrigin: "top right",
+        scrollTrigger: {
+            trigger: "#suydbasuydasvdasyd4",
+            // markers: true, 
+            start: "left right",
+            end: "center center",
+            scrub: 6, // Adjust scrub value as needed
+            onComplete: function () {
+                // Optional: Callback function when animation is complete
+            }
+        }
+    });
+   
+    tl2.to("#suydbasuydasvdasyd6", {
+        rotate: "45deg",
+        x: "60%",
+        y: "-33%",
+        transformOrigin: "top right",
+        scrollTrigger: {
+            trigger: "#suydbasuydasvdasyd6",
+            // markers: true, 
+            start: "top 100%",
+            end: "center 100%",
+            scrub: 5, // Adjust scrub value as needed
+            onComplete: function () {
+                // Optional: Callback function when animation is complete
+            }
+        }
+    });
+   
 
 
 
+//  moje ose jab me scroll karu to ye side me jana chye ha
     gsap.from(".video-con video", {
         scale: 0.14,
         yPercent: -104,
@@ -222,19 +318,6 @@ gsap.from(".sfohfasiudhasdasd", {
     }
 });
 
-gsap.from(".asdoasiduasiudsad", {
-    // scale: 0.2,
-    x: "-100%",
-    backgroundSize: "0% 100%",
-    backgroundPositionX: "-1.28%", // animate background position x
-    scrollTrigger: {
-        backgroundColor: "#000",
-        trigger: ".asdoasiduasiudsad",
-        start: "left right",
-        end: "center center",
-        scrub: 2
-    }
-});
 
 gsap.from(".asdoiuasduiasudybsad", {
     // scale: 0.2,
@@ -275,7 +358,9 @@ var splide = new Splide('.abdasbdasbgdasdbasudvasasdas', {
 splide.mount();
 
 
-gsap.from(".adnasidbsid", {
-    x: -100,
+// gsap.from(".adnasidbsid", {
+//     x: -100,
     
-})
+// })
+
+

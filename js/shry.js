@@ -87,6 +87,7 @@ document.addEventListener("DOMContentLoaded", function() {
         
         asd8asdyasd.addEventListener("mouseenter", () => {
             gsap.to(".asd8asdyasd", {
+                filter: "blur(36px)", 
                 ease: "none"
             });
         
