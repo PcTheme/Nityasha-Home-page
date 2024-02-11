@@ -27,7 +27,7 @@ body {
 }
 
 body.dark-mode {
-    background-color: #000000;
+    /* background-color: #000000; */
     color: #fff;
 }
 
@@ -42,10 +42,26 @@ body.dark-mode p,
 /* body.dark-mode div, */
 body.dark-mode button {
     color: #fff;
+    
+}
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6,
+body.dark-mode span,
+body.dark-mode p {
+        position: relative;
+    z-index: 10000;
+    background: transparent;
 }
 
 body.light-mode {
-    background: #EEF3F3;
+    /* background: #EEF3F3; 
+    .menu-para{
+    z-index: 10000;
+} */
     color: #000000;
 }
 
@@ -335,10 +351,13 @@ li a {
 .mainiconscroll {
     width: 100%;
     display: flex;
+    z-index: 10000;
     align-items: center;
     justify-content: center;
 }
-
+#buttonsPPchoverhomes{
+    z-index: 10000;
+}
 .uaygd7afsd5adyusad {
     width: 100%;
     display: flex;
@@ -608,9 +627,11 @@ body.light-mode .asdha9sud7adgdgh6gfh4b {
 
 .video-con {
     width: 100%;
+    z-index: 10000;
     height: 121vh;
     padding: 1px;
     /* background-color: black; */
+    position: relative;
 }
 
 .video-con video {
@@ -640,11 +661,15 @@ body.light-mode .asdha9sud7adgdgh6gfh4b {
     width: 10%;
     /* padding-left: ; */
     /* padding-right: 10%; */
+    position: relative;
+    z-index: 10000;
     font-family: 10px;
 }
 
 .audisfcudgvdyhsa7d p {
     font-size: 29px;
+    position: relative;
+    z-index: 10000;
     width: 30%;
     /* padding-left: 10%; */
     line-height: 36px;
@@ -669,6 +694,8 @@ body.light-mode .asdha9sud7adgdgh6gfh4b {
 
 .asdoiuasduiasudybsad h1 {
     font-size: 3vw;
+    position: relative;
+    z-index: 10000;
 }
 
 .asdoiuasduiasudybsad p {
@@ -1168,4 +1195,20 @@ body.light-mode .asdha9sud7adgdgh6gfh4b {
     font-family: syne;
     font-size: 1.6vw;
     text-transform: lowercase;
+}
+canvas {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* z-index: -1; */
+}
+
+.menu-para{
+    z-index: 10000;
+}
+
+.asdasdisfd{
+    z-index: 10000;
 }
