@@ -334,15 +334,15 @@ gsap.from(".asdoiuasduiasudybsad", {
     }
 });
 
-gsap.to(".asduausdgaiysdasytdasiytdutiaduvtiasybdsaiybodPIUS", {
+gsap.to("#asdiuagsodgasd", {
     opacity: 1,
     scrollTrigger: {
-        scroller: '#main',
-        trigger: '.aydyaitdasudfasodasdnaosydS',
-        start: 'top 100%',
-        end: 'top -100%',
+        scroller: 'body',
+        trigger: '#asdiuagsodgasd',
+        start: 'top 90%',
+        end: 'top 20%',
         markers: true,
-        scrub: 1
+        scrub: 5
     }
 })
 
