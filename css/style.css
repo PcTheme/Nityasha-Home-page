@@ -119,12 +119,12 @@ header .asdhasiudoasdasdasdasda {
     backdrop-filter: blur(3px);
     background-color: #c5fcfc;
     border-radius: 50000px;
-    pointer-events: none; 
+    pointer-events: none;
     transform: all 0.5s ease-in-out;
     position: fixed;
     mix-blend-mode: difference;
     z-index: 999999999999999999999999999999999999;
-    color: #ffe7e7; 
+    color: #ffe7e7;
     cursor: none;
 } */
 
@@ -428,7 +428,7 @@ body.light-mode .asdha9sud7adgdgh6gfh4b {
 }
 
 /* body.light-mode .asdha9sud7adgdgh6gfh4b +{
-    background: #c5fcfc;   
+    background: #c5fcfc;
 } */
 
 .asdha9sud7adgdgh6gfh4b:hover {
@@ -930,7 +930,7 @@ body.light-mode .asdha9sud7adgdgh6gfh4b {
     text-align: right;
 }
 .udbasudsavdasdvahgsgdsavd{
-    width: 100%;    
+    width: 100%;
     margin-top: 20vw;
     height: 100vw;
 }
@@ -977,21 +977,21 @@ body.light-mode .asdha9sud7adgdgh6gfh4b {
 .asduiasgd7fasdasoidufasdgauoisd img{
     border-radius: 100%;
     transition: 300ms;
-    height: 7vw;    
+    height: 7vw;
     width: 7vw;
 }
 .asduiasgd7fasdasoidufasdgauoisd:hover  img {
     transform: rotate(-10deg) scale(0.8);
     transition: 300ms;
 }
-.asduiasgd7fasdasoidufasdgauoisd h1{    
+.asduiasgd7fasdasoidufasdgauoisd h1{
     font-size: 1vw;
     margin-top: 1vw;
     letter-spacing: 0px;
     text-transform: uppercase;
     font-family: Lexend;
 }
-.asduiasgd7fasdasoidufasdgauoisd p{    
+.asduiasgd7fasdasoidufasdgauoisd p{
     font-family: Lexend;
     font-size: 0.5vw;
     text-transform: uppercase;
@@ -1043,17 +1043,19 @@ body.light-mode .asdha9sud7adgdgh6gfh4b {
 }
 .dyugasfdasdasoyufdaosudis img{
     border-radius: 1vw;
-    
+
 }
 .asduausdgaiysdasytdasiytdutiaduvtiasybdsaiybodPIUS{
     width: 100%;
     position: absolute;
     height: 30vw;
     z-index: 10;
+    /* margin-left: 5vw; */
     left: 0;
     right: 0;
     margin-top: 20vw;
     display: flex;
+    /* opacity: 0%; */
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -1069,7 +1071,4 @@ body.light-mode .asdha9sud7adgdgh6gfh4b {
     font-weight: 300;
     margin-top: 1vw;
     font-family: Syne;
-}
-.asidusuydasyudyugasd{
-    
 }

@@ -334,6 +334,17 @@ gsap.from(".asdoiuasduiasudybsad", {
     }
 });
 
+gsap.to(".asduausdgaiysdasytdasiytdutiaduvtiasybdsaiybodPIUS", {
+    opacity: 1,
+    scrollTrigger: {
+        scroller: '#main',
+        trigger: '.aydyaitdasudfasodasdnaosydS',
+        start: 'top 100%',
+        end: 'top -100%',
+        markers: true,
+        scrub: 1
+    }
+})
 
 gsap.from(".usadbsiaydbasidvgaysdas", {
     // scale: 0.2,

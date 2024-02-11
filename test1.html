@@ -1,23 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
-</head>
 
-<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 
-    <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg" alt="">
+    </head>
+    <body>
+        
+    <div className='max-w-screen-xl m-auto py-5 flex justify-between items-center px-4 '>
+        <div className='flex gap-1 items-center'>
+            <img src="https://github.com/kenilGamer/GOD_APP/blob/main/public/images/img1.png?raw=true" className='object-cover w-10' alt="" /> 
+            <h1>GODCRAFT</h1>
+        </div>
+        <div className='flex gap-10 items-center'>
+        <div className='flex gap-8 items-center uppercase'>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
-    <script type="text/javascript" src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
-    <script src="js/script.js"></script>
-</body>
-
-</html>
+        <a className='text-sm font-semibold' href={`#${item}`} key={index}>
+            Home
+        </a>
+        <a className='text-sm font-semibold' href={`#${item}`} key={index}>
+            PACKAGES
+        </a>
+        <a className='text-sm font-semibold' >
+            HELP
+        </a>
+        <a className='text-sm font-semibold'>
+            CONTACT
+        </a>
+        </div>
+    <Botton />
+    <a href="" className='font-semibold uppercase ' >Sing in</a>
+        </div>
+        
+    </div>
+    </body>
+    </html>
