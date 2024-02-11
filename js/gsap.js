@@ -341,7 +341,7 @@ gsap.to("#asdiuagsodgasd", {
         trigger: '#asdiuagsodgasd',
         start: 'top 90%',
         end: 'top 20%',
-        markers: true,
+        // markers: true,
         scrub: 5
     }
 })
